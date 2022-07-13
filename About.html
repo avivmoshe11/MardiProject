@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MardiGras - About</title>
+    <link rel="icon" href="images/icon4.png" type="image/icon type" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pattaya|Roboto|Henny Penny" />
+  </head>
+  <body>
+    <!--NavBar-->
+    <header>
+      <nav class="navbar navbar-expand-md fixed-top navbar-dark" style="background-color: #945394" aria-label="Fifth navbar example">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarsExample05"
+            aria-controls="navbarsExample05"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarsExample05">
+            <a class="navbar-brand" href="#">
+              <img src="images/Mardi.png" alt="MardiGras icon" width="70" height="100" />
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="media.html">Media</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faq.html">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="quiz.html">Trivia</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!--Horizontal Accordion-->
+    <!--had to shift id up(one) navbarfixed interrupt-->
+    <div id="regDiv2" class="container1">
+      <div class="card1">
+        <img src="images/flex2.jpg" alt="parade mardi-gras" />
+        <div class="card1__head">
+          <a href="#first"><span>The Parade</span></a>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="images/1.jpg" alt="Night Life mardi-gras" />
+        <div class="card1__head">
+          <a href="#TheParadeAbout"><span>The Night Life</span></a>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="images/6.jpg" alt="Restaurants mardi-gras" />
+        <div class="card1__head">
+          <a href="#TheNightLifeAbout"><span>The Restaurants</span></a>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="images/7.jpg" alt="Hotels mardi-gras" />
+        <div class="card1__head">
+          <a href="#TheRestaurantsAbout"><span>The Hotels</span></a>
+        </div>
+      </div>
+      <div class="card1">
+        <img src="images/8.jpg" alt="History mardi-gras" />
+        <div class="card1__head">
+          <a href="#TheHotelsAbout"><span>The History</span></a>
+        </div>
+      </div>
+    </div>
+    <!--Responsive Image-->
+    <div id="resDiv2">
+      <div class="container addMargin">
+        <div class="row row-cols-1">
+          <div class="col cbg" style="background-image: url('images/flex2.jpg')">
+            <a href="#TheParadeAbout"><span>The Parade</span></a>
+          </div>
+          <div class="col cbg" style="background-image: url('images/1.jpg')">
+            <a href="#TheNightLifeAbout"><span>The Night Life</span></a>
+          </div>
+          <div class="col cbg" style="background-image: url('images/6.jpg')">
+            <a href="#TheRestaurantsAbout"><span>The Restaurants</span></a>
+          </div>
+          <div class="col cbg" style="background-image: url('images/7.jpg')">
+            <a href="#TheHotelsAbout"><span>The Hotels</span></a>
+          </div>
+          <div class="col cbg" style="background-image: url('images/8.jpg')">
+            <a href="#TheHistoryAbout"><span>The History</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--About-->
+    <div id="first" class="main-header">
+      <h1>About <span>Mardi-Gras</span></h1>
+    </div>
+
+    <main class="container2">
+      <section id="TheParadeAbout" class="card1">
+        <img src="images/flex2.jpg" alt="Parade Card mardi-gras" />
+        <div>
+          <h3>The Parade</h3>
+          <p>
+            Revelers know to wear costumes or at least dress in purple, green, and gold, and adorn themselves with long beads caught from the floats of previous parades. You'll see a lot of crazy
+            costumes, kids with their families are everywhere, and both locals and visitors having a great time.
+          </p>
+        </div>
+      </section>
+
+      <section id="TheNightLifeAbout" class="card1" data-aos="fade-left">
+        <img src="images/1.jpg" alt="Night Life Card mardi-gras" />
+        <div>
+          <h3>The Night Life</h3>
+          <p>
+            kicks off Carnival season in New Orleans. Although some people use Carnival and Mardi Gras interchangeably, they are actually different things. Carnival is a time to eat, drink and be
+            merry before the rigorous fasting and sacrifice during Lent. It is filled with parades, balls and other celebrations leading up to Mardi Gras, which is French for “Fat Tuesday.”
+          </p>
+        </div>
+      </section>
+
+      <section id="TheRestaurantsAbout" class="card1" data-aos="fade-right">
+        <img src="images/6.jpg" alt="Restaurants Card mardi-gras" />
+        <div>
+          <h3>The Restaurants</h3>
+          <p>
+            Enjoy A Whimsical Atmosphere Including The Food Stage Where Chefs Plate Signature Dishes. Come And Experience Our Selection Of Sophisticated Cocktails, Wines, Gulf Seafood & More!
+            Inventive Cocktail Menu. Lunch & Dinner. Fresh Gulf Seafood.
+          </p>
+        </div>
+      </section>
+
+      <section id="TheHotelsAbout" class="card1" data-aos="fade-left">
+        <img src="images/7.jpg" alt="Hotels Card mardi-gras" />
+        <div>
+          <h3>The Hotels</h3>
+          <p>
+            Book your Hotel in New Orleans now. Quick, Easy Booking. No Reservation Costs. Book your Hotel in New Orleans LA online. No reservation costs. Great rates. Hostels. Get Instant
+            Confirmation. Hotels. 24/7 Customer Service. Best Price Guarantee. Apartments. Motels.
+          </p>
+        </div>
+      </section>
+
+      <section id="TheHistoryAbout" class="card1" data-aos="fade-right">
+        <img src="images/8.jpg" alt="History Card" />
+        <div>
+          <h3>The History</h3>
+          <p>
+            The origins of Mardi Gras can be traced to medieval Europe, passing through Rome and Venice in the 17th and 18th centuries to the French House of the Bourbons. From here, the traditional
+            revelry of "Boeuf Gras," or fatted calf, followed France to her colonies.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <div class="mayor">
+      <div class="main-header">
+        <h1>About <span>Our Mayor</span></h1>
+      </div>
+      <main class="container2">
+        <section class="card1" data-aos="zoom-in">
+          <img src="images/Mayor.jpg" alt="NOLA Mayor" />
+          <div>
+            <h3>LaToya Cantrell</h3>
+            <p>
+              Cantrell was inaugurated as mayor on May 7, 2018, the first woman to hold the position in the city's history. Once in office, she established a new Office of Youth and Families, with the
+              goal of creating a strategic plan to address families in crisis in the city. Cantrell also founded a Gun Violence Reduction Council, tasked with finding solutions to violent crime.
+              Starting with a push to rededicate hotel taxes collected within the city for city use, Cantrell has focused on her #fairshare initiative to improve city infrastructure, public
+              transportation, public parks, and green spaces. As part of that initiative, in October 2018 the City of New Orleans filed a lawsuit against four opioid manufacturers and distributors. In
+              2016, Cantrell was given a lifetime achievement award by the presidents of Tulane, Loyola and Xavier universities and the University of New Orleans for her service to the community.
+            </p>
+          </div>
+        </section>
+      </main>
+    </div>
+    <!--Footer-->
+    <footer>
+      <span> Copyright © 2022, AvivMosheFullStack.com All rights reserved. </span>
+    </footer>
+
+    <!--AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 1000, // values from 0 to 3000, with step 50ms
+      });
+    </script>
+  </body>
+</html>
